@@ -5,6 +5,7 @@ import Captcha from "../../components/Captcha";
 import Html from "../../components/Html";
 import Input from "../../components/Input";
 import Multiselect from "../../components/Multiselect";
+import Section from "../../components/Section";
 import Select from "../../components/Select";
 import SelectorList from "../../components/SelectorList";
 import Textarea from "../../components/Textarea";
@@ -93,6 +94,17 @@ const FieldBuilder = ({
             wrapId={wrapId}
           />
         );
+        case "SECTION":
+          return (
+            <Section
+              fieldData={field}
+              key={id}
+              gfId={id}
+              name={inputName}
+              wrapClassName={inputWrapperClass}
+              wrapId={wrapId}
+            />
+          );
       // Start with the standard fields
       case "TEXT":
       case "NUMBER":

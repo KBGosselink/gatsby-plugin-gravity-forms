@@ -275,6 +275,7 @@ export const GravityFormFields = graphql`
         ...PhoneField
         ...RadioField
         ...SelectField
+        ...SectionField
         ...TextAreaField
         ...TextField
       }
