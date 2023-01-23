@@ -127,7 +127,7 @@ To develop the component, you first need to link it to a Gatsby project. This is
 - [x] Add masking to inputs
 - [x] Section
 - [x] Name
-- [ ] Page
+- [x] Page
 - [x] Date
 - [x] Hour
 - [ ] File upload
