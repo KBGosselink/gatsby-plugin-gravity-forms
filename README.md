@@ -117,7 +117,7 @@ To develop the component, you first need to link it to a Gatsby project. This is
   - [ ] Email - Confirmation Email
 - [x] Textarea
 - [ ] Select (half done, need to add default values)
-- [ ] Multiselect
+- [x] Multiselect
 - [x] Number
 - [ ] Checkbox (half done, need to add default values)
 - [ ] Radio (half done, need to add default values and correct error placement)
@@ -125,14 +125,18 @@ To develop the component, you first need to link it to a Gatsby project. This is
 - [x] HTML
 - [x] Captcha
 - [x] Add masking to inputs
-- [ ] Section
+- [x] Section
+- [x] Name
 - [ ] Page
-- [ ] Date
+- [x] Date
+- [x] Hour
 - [ ] File upload
 - [ ] Post Fields
 - [ ] Pricing Fields
-- [ ] Phone
-- [ ] Email
+- [x] Phone
+- [x] Email
+- [x] Address
+- [x] Website 
 - [ ] Configure error message (currently just 'An Unknown Error Occurred')
 - [ ] Integrate Success/Failure Handler from previous plugin
 
